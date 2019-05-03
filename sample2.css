@@ -37,7 +37,8 @@ a {
 .top-wrapper {
   padding: 180px 0 100px 0;
   background-image: url(Lillian.jpg);
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
   color: black;
   text-align: center;
 }
@@ -71,6 +72,26 @@ header {
 
 .header-list a {
   color: white;
+}
+
+@media(max-width: 1000px) {
+  header {
+    font-size: 10px;
+  }
+  .header-logo {
+    float: left;
+    font-size: 20px;
+    padding: 20px 40px;
+  }
+  .header-list li {
+    float: left;
+    padding: 10px 20px;
+  }
+  .top-wrapper h1 {
+  opacity: 1;
+  font-size: 20px;
+  letter-spacing: 5px;
+}
 }
 
 .contents {

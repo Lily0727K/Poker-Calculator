@@ -14,6 +14,23 @@ a {
   width: 100%;
   padding: 0 15px;
   margin: 0 auto;
+  font-size: 40px;
+}
+
+.container button {
+  display: inline-block;
+  font-size: 32px;
+  width: 200px;
+  height: 48px;
+  border-radius: 4px;
+  margin-right: 24px;
+  margin-left: 24px;
+  color: #fff;
+  background-color: #66ccff;
+  border: none;
+  outline: none;
+  box-shadow: 4px 4px #d8d8d8;
+  cursor: pointer;
 }
 
 .top-wrapper {
@@ -51,8 +68,27 @@ header {
   padding: 33px 20px;
 }
 
+.header-list a {
+  color: white;
+}
+
 .contents {
   width: 100%;
   margin-top: 40px;
   text-align: center;
+}
+
+.contents-item img{
+  max-width: 500px;
+}
+
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  color: #2f5167;
+}
+
+.contact-submit {
+  background-color: #dee7ec;
+  color: #889eab;
 }

@@ -8,7 +8,7 @@ class LikeButton extends React.Component {
 
   random_hand() {
     const random = Math.floor( Math.random() * 10 );
-    const hands = ["AA", "KK", "QQ", "JJ", "TT", "99", "AKs", "AKo", "AQs"];
+    const hands = ["AA", "KK", "QQ", "JJ", "TT", "99", "AKs", "AKo", "AQs", "65s"];
     const randomHand = hands[random];
     this.setState({hand: randomHand})
   }
